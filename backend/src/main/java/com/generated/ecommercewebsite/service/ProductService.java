@@ -1,0 +1,17 @@
+package com.generated.ecommercewebsite.service;
+
+import com.generated.ecommercewebsite.dto.ProductDto;
+import java.util.List;
+import java.util.UUID;
+
+public interface ProductService {
+    List<ProductDto> findAll();
+
+    ProductDto findById(UUID id);
+
+    ProductDto create(ProductDto dto);
+
+    ProductDto update(UUID id, ProductDto dto);
+
+    void delete(UUID id);
+}
