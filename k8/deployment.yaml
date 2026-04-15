@@ -16,7 +16,7 @@ spec:
                 - name: dockerhub-secret
             containers:
                 - name: finaltest35-admin-backend-test-backend
-                    image: devopspaxarisglobalrepo/finaltest35-admin-backend-test-backend:latest
+                    image: devopspaxarisglobalrepo/finaltest35-admin-backend-test-backend:a8ef1c38d89d1713daa5afb853685210a1275193
                     imagePullPolicy: Always
                     ports:
                         - containerPort: 8080
